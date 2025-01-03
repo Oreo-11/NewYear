@@ -24,7 +24,7 @@ img{
 .img{
   width: 83vw;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 body{
   width: 100%;
@@ -44,10 +44,13 @@ body{
 }
 .text{
   width: 88%;
-  padding-bottom: 250px;
+  padding-bottom: 115px;
   margin: 0 auto;
   position: relative;
-  left: 5vw;
+}
+.heart h1{
+  height: 20px;
+  font-size: 12px;
 }
 p{
   color: white;
@@ -56,9 +59,14 @@ p{
     letter-spacing: 3px;
     width: 100%;
     font-size: 9px;
+    text-align: center;
     height: 106px;
 }
-
+.heart{
+  width: 36vw;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
 
 
 
@@ -75,7 +83,7 @@ p{
     margin: -15px 0 0 0;
     padding: 0;
     pointer-events: none;
-    width: 100vw;
+    width: 100%;
   }
   .lightrope li {
     position: relative;
